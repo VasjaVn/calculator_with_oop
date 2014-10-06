@@ -1,0 +1,20 @@
+package ua.vn.calculator;
+
+public enum Operations {
+	
+	OPERATION_NOT_OPER,
+	
+	OPERATION_ADD,
+	OPERATION_SUB,
+	OPERATION_MUL,
+	OPERATION_DIV,
+	
+	OPERATION_SQRT,
+    OPERATION_PERCENT,
+    OPERATION_ONE_DIV_X,
+	
+    OPERATION_EQUAL,
+	
+    OPERATION_CE,
+    OPERATION_C		
+}

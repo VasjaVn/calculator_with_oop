@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+
+button {
+    //background: #2E8CE3;
+    padding: 10px 10px;
+    width: 58px;
+    font-size: 15px; 
+    font-weight: bold;
+    //color: #FFFFFF;
+    text-align: center;
+    //border: solid 1px #73C8F0;
+    cursor: pointer;
+}
+
+button:hover {
+	//background: #2E69E3;
+	background: blue;
+	color: white;
+}
+
+table.outer {
+	border: solid 1px black;
+	background: lightblue;
+	padding: 0px;
+	border-spacing: 0px 0px;
+}
+
+table button.bigWidth {
+	width: 100%;
+}
+
+table button.bigHeight {
+	height: 90px;
+}
+
+table.inner {
+	width: 100%;
+	border: solid 1px blue;
+	background: white;
+	padding: 5px 0px;
+	border-spacing: 0px 0px;
+}
+
+table td.label {
+	color: blue;
+}
+
